@@ -31,4 +31,6 @@ ADD ./bashrc /root/.bashrc
 ADD ./init.sh /init.sh
 RUN chmod +x /init.sh
 
+EXPOSE 8080
+
 CMD /init.sh
